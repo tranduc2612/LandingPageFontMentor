@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,600;1,300;1,600&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <div class="app">
+    <header class="header" >
+        <div class="navbar">
+          <!-- navbar -->
+          <div class="nav__info">
+            <div class="nav__logo">
+              <img src="./images/logo.svg" alt="">
+            </div>
+
+
+            <div class="nav__toggle">
+              <span>Product</span>
+              <i id="nav__toggle-icon"class="fas fa-chevron-down"></i>
+              <div class="nav__toggle-block">
+                <ul class="nav__toggle-list">
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Overview</a></li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Pricing</a> </li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Marketplace</a> </li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Features</a> </li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Integrations</a> </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="nav__toggle">
+              <span>Company</span>
+              <i id="nav__toggle-icon"class="fas fa-chevron-down"></i>
+              <div class="nav__toggle-block">
+                <ul class="nav__toggle-list">
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">About</a></li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Team</a></li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Blog</a></li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="nav__toggle">
+              <span>Cornect</span>
+              <i id="nav__toggle-icon"class="fas fa-chevron-down"></i>
+              <div class="nav__toggle-block">
+                <ul class="nav__toggle-list">
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Contact</a></li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">Newsletter</a> </li>
+                  <li class="nav__toggle-item"><a href="" class="nav__toggle-link">LinkedIn</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+
+          <!-- login -->
+          <div class="nav__user">
+            <div class="nav__user-item button nav__login">Login</div>
+            <div class="nav__user-item button nav__sign-up">Sign Up</div> 
+          </div>
+        </div>
+
+        <div class="header__wrap">
+          <h1 class="header__text header__wrap-item">
+            A modem publishing platform
+          </h1>
+          <h3 class="header__sologan header__wrap-item">Grow your audience and build your online brand</h3>
+          <div class="header__button header__wrap-item">
+            <button class="button">Start for Free</button>
+            <button class="button">Learn More</button>
+          </div>
+        </div>
+    </header>
+    
+
+    <div class="hero">
+        <section class="hero1">
+          <h1 data-aos="fade-left">Design for future</h1>
+            <div class="hero1__content" data-aos="fade-left">
+                <div class="hero1__content-wrap">
+                  <h2>Introducing an extensible editor</h2>
+                  <span>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                    The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                    videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                    change the looks of a blog.</span>
+                </div>
+                <div class="hero1__content-wrap" data-aos="fade-up">
+                    <h2>Robust content management</h2>
+                    <span> Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                      by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</span>
+                </div>
+              </div>
+        </section>  
+        
+        <section class="hero2">
+          <div class="hero2__content">
+            <div class="hero2__content-img">
+              <img src="./images/illustration-phones.svg" alt="">
+            </div>
+            <div class="hero2__content-info" data-aos="fade-up-right">
+              <h1>State of the Art Infrastructure</h1>
+              <span>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+              This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</span>
+            </div>
+          </div> 
+        </section>
+        
+        <section class="hero3">
+            <div class="hero3__content">
+                <div class="hero3__content-wrap" data-aos="fade-up-right">
+                  <h2>Free, open, simple</h2>
+                  <span>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</span>
+                </div>
+                <div class="hero3__content-wrap" data-aos="fade-up">
+                    <h2>Powerful tooling</h2>
+                    <span>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                      capable of producing even the most complicated sites.</span>
+                </div>
+              </div>
+        </section>  
+    </div>
+    <footer class="footer">
+        
+    </footer>
+  </div>
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script> -->
+  <script src="./main.js"></script>
+</body>
+</html>
